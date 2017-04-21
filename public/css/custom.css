@@ -1,0 +1,74 @@
+/*--------------------------------*\
+    NAVIGATION
+\*--------------------------------*/
+#menu-main-menu a {
+	padding: 12px;
+	margin: 12px 8px;
+	font-weight: 700;
+}
+
+/*--------------------------------*\
+    SUBSCRIPTION
+\*--------------------------------*/
+.mc4wp-form input[type=date], .mc4wp-form input[type=email], .mc4wp-form input[type=tel],
+	.mc4wp-form input[type=text], .mc4wp-form input[type=url], .mc4wp-form select,
+	.mc4wp-form textarea {
+	height: 36px !important;
+	background-color: #eee;
+}
+
+#mc4wp-form-1 div {
+	position: relative;
+}
+
+#mc4wp-form-1 .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 36px;
+	width: 36px;
+	padding: 1px 6px;
+	background: none;
+	border-radius: 0;
+}
+
+#mc4wp-form-1 .btn:hover {
+	color: black !important;
+}
+
+/*------------------------------------------------------------*\
+    SIMPLE SLIDESHOW MANAGER - BRAND ARTICLES - IMPROVEMENTS
+\*------------------------------------------------------------*/
+.brand-gallery #image_slideshow_holder {
+	margin: auto;
+}
+
+.brand-gallery #image_slideshow img {
+	object-fit: contain;
+}
+
+.brand-gallery #image_slideshow img {
+	height: 350px;
+}
+
+@media ( max-width : 450px) {
+	.brand-gallery #image_slideshow img {
+		height: 200px;
+	}
+}
+
+@media ( min-width : 451px) and (max-width: 600px) {
+	.brand-gallery #image_slideshow img {
+		height: 250px;
+	}
+}
+
+@media ( min-width : 901px) and (max-width: 1100px) {
+	.brand-gallery #image_slideshow img {
+		height: 250px;
+	}
+}
+
+.js-container {
+	padding-top: 0px !important;
+}
